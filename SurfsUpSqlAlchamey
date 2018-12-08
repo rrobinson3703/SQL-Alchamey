@@ -16,8 +16,7 @@ import matplotlib.pyplot as plt
 
 engine = create_engine("sqlite:///Resources/hawaii.sqlite") 
 
-Base = automap_base()
-Base.prepare(engine, reflect=True)
+Base = automap_base()Srue)
 
 
 Base.classes.keys()
